@@ -52,7 +52,7 @@ camera={{position:[9,7,30]}} className='h-full w-full overflow-visible'>
 
 </div>
 <div className="section2 landscape:h-[20%]   portrait:h-[37%] mb-[0.5vw] w-full  flex flex-col items-center justify-between">
-<div className="writeup grid place-content-center w-full bg-[#DAE5E5] rounded-[0.4vw] landscape:h-full portrait:h-[70%] portrait:sm:h-[55%] landscape:text-[1.7vw] portrait:text-[6vw] portrait:sm:text-[4vw] portrait:text-center">
+<div className="writeup grid place-content-center w-full bg-[#DAE5E5] rounded-[0.5vw] portrait:rounded-[1.7vw] portrait:sm:rounded-[1.5vw] landscape:h-full portrait:h-[70%] portrait:sm:h-[55%] landscape:text-[1.7vw] portrait:text-[6vw] portrait:sm:text-[4vw] portrait:text-center">
 
 Feel Like a God on the Run:
 Elevate Your Stride with Our Supreme Jugging Shoes
@@ -60,7 +60,7 @@ Elevate Your Stride with Our Supreme Jugging Shoes
 </div>
 
 <div className="landscape:hidden button cursor-pointer  h-[9vw] w-[25vw] text-[5.4vw] 
-rounded-[0.7vw] bg-[#8C6247]  portrait:sm:text-[3.4vw] grid place-content-center">
+rounded-[1.7vw] bg-[#8C6247]  portrait:sm:text-[4.2vw] grid place-content-center">
 BUY
 </div>
 

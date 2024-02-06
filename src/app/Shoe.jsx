@@ -17,7 +17,7 @@ export function Model(props) {
        
      
       
-      <mesh geometry={nodes.shoe_1.geometry} material-color={'#D0FAF9'}  material={materials.mesh}/>
+      <mesh geometry={nodes.shoe_1.geometry} material-color={'#DCFFFE'}  material={materials.mesh}/>
 
       <mesh geometry={nodes.shoe_2.geometry} material-color={'#E3FFFF'} material={materials.caps} />
      

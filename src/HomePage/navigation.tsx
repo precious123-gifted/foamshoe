@@ -9,7 +9,7 @@ import menuIcon from '../assets/menu-icon.png'
 const kufam = Kufam({subsets: ["latin"]})
 export default function Navigation() {
   return (
-    <div  style={kufam.style} className='flex landscape:h-[5vw] portrait:h-[15vw] flex-row items-center justify-center  w-screen text-[#EEFBFB]  '>
+    <div  style={kufam.style} className='border-b  border-[#EEFBFB] border-dashed flex landscape:h-[5vw] portrait:h-[15vw] flex-row items-center justify-center  w-screen text-[#EEFBFB]  '>
     <div className="flex content w-[95%] text-[1.3vw] portrait:text-[4.3vw]  h-full flex-row items-center justify-between">
 <div className="logoDIv w-[20%] portrait:w-[40%] "><Image src={foamLogo} alt='' className='logo cursor-pointer w-[80%] object-contain aspect-[4/3]'/></div>
 
