@@ -21,7 +21,7 @@ const frames = keyframes`
  
 
   100%{
-     transform:translateX(-100%)
+     transform:translate(calc(-100% - 0.25rem))
   }
 
 
@@ -74,7 +74,7 @@ Built Footwear
 <div className="banner1  bg-[#EEFFFF]  w-full h-[50%] mb-[30vw] portrait:sm:mb-[20vw]  portrait:text-[6vw] portrait:sm:text-[4vw] flex flex-row whitespace-nowrap items-center ">
 
 
-<div className="content  w-fit"><span>  Our Shoes Redefine Jogging
+<div className="content  w-fit"><span>Our Shoes Redefine Jogging
 Excellence. </span> <span className='text-[#EEFFFF]'> Step Into the Future of
 Fitness.  </span><span> Order Yours Now and
 Experience the Power </span>
@@ -82,7 +82,7 @@ Experience the Power </span>
 Built Footwear. </span>
 </div>
 
-<div className="content  w-fit"><span>   Our Shoes Redefine Jogging
+<div className="content  w-fit"><span>Our Shoes Redefine Jogging
 Excellence. </span> <span className='text-[#EEFFFF]'> Step Into the Future of
 Fitness.  </span><span> Order Yours Now and
 Experience the Power </span>
