@@ -32,13 +32,13 @@ export const AnimationStyle = styled.div`
   
 .banner1>.content{
 
-  animation:${frames} 14s linear infinite
-}
-.banner1>.content2{
-
-animation:${frames} 14s linear infinite
+  animation:${frames} 23s linear infinite
 }
 
+.banner2>.content{
+
+animation:${frames} 23s linear infinite
+}
 
 `;
 
@@ -74,21 +74,33 @@ Built Footwear
 <div className="banner1  bg-[#EEFFFF]  w-full h-[50%] mb-[30vw] portrait:sm:mb-[20vw]  portrait:text-[6vw] portrait:sm:text-[4vw] flex flex-row whitespace-nowrap items-center ">
   <div className="content  w-full"><span>Unleash Your Ultimate Stride with </span> <span className='text-[#EEFFFF]'>Our
 Cutting-Edge Shoes! </span><span>Elevate Your Performance,</span>
-<span className='text-[#EEFFFF]'>Embrace Comfort, and Conquer Every Run.</span></div>
+<span className='text-[#EEFFFF]'>Embrace Comfort and Conquer Every Run.</span></div>
 
 
-<div className="content2 w-full"><span>Unleash Your Ultimate Stride with </span> <span className='text-[#EEFFFF]'>Our
+<div className="content w-full"><span>Unleash Your Ultimate Stride with </span> <span className='text-[#EEFFFF]'>Our
 Cutting-Edge Shoes! </span><span>Elevate Your Performance,</span>
-<span className='text-[#EEFFFF]'>Embrace Comfort, and Conquer Every Run.</span></div>
+<span className='text-[#EEFFFF]'>Embrace Comfort and Conquer Every Run.</span>
+</div>
 
 
 </div>
 
-<div className="banner2 bg-[#EEFFFF]  w-full h-[50%] mb-[30vw] portrait:sm:mb-[20vw]  portrait:text-[6vw] portrait:sm:text-[4vw] flex flex-row whitespace-nowrap items-center "> <span>Our Shoes Redefine Jogging
-Excellence. </span> Step Into the Future of
-Fitness.  <span> Order Yours Now and
-Experience the Power </span> of Purpose
-Built Footwear<span></span>
+<div className="banner2 bg-[#EEFFFF]  w-full h-[50%] mb-[30vw] portrait:sm:mb-[20vw]  portrait:text-[6vw] portrait:sm:text-[4vw] flex flex-row whitespace-nowrap items-center "> 
+
+<div className="content  w-full"><span>Our Shoes Redefine Jogging
+Excellence. </span> <span className='text-[#EEFFFF]'> Step Into the Future of
+Fitness.  </span><span> Order Yours Now and
+Experience the Power </span>
+<span className='text-[#EEFFFF]'> of Purpose
+Built Footwear</span></div>
+
+<div className="content  w-full"><span>Our Shoes Redefine Jogging
+Excellence. </span> <span className='text-[#EEFFFF]'> Step Into the Future of
+Fitness.  </span><span> Order Yours Now and
+Experience the Power </span>
+<span className='text-[#EEFFFF]'> of Purpose
+Built Footwear</span></div>
+
 </div>
 </div>
 
