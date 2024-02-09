@@ -38,7 +38,7 @@ camera={{position:[9,7,30]}} className=' w-full overflow-visible'>
 <div className="landscape:bg-[#EFD7C7] section2  landscape:w-[50%] portrait:w-full portrait:text-center h-full portrait:h-[20%] flex flex-row justify-center items-end text-[#084242]">
 <div className="content  w-[90%] h-[85%]">
 <div className="header text-[1.8vw] portrait:text-[6vw] portrait:sm:text-[4.5vw] mb-[4vw]">Foam Shoe1</div>
-<div className="description text-[1.5vw] portrait:text-[3.5vw] portrait:sm:text-[3.5vw] mb-[4vw] ">Descrption goes here for now i dontknow what to say, so i will just leave it like this for now.</div>
+<div className="description text-[1.5vw] portrait:text-[3.7vw] portrait:sm:text-[3.5vw] mb-[4vw] ">Descrption goes here for now i dontknow what to say, so i will just leave it like this for now.</div>
 <div className="prize text-[1.5vw] portrait:text-[4.5vw] portrait:sm:text-[4vw] mb-[4vw] ">$90.00</div>
 <div className="portrait:hidden button h-[4vw] w-[12vw]  grid place-content-center rounded-[0.7vw] bg-[#8C6247] cursor-pointer text-[1.5vw]">Add to Cart</div>
 </div>
