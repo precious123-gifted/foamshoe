@@ -78,7 +78,7 @@ Built Footwear
 Excellence. </span> <span className='text-[#EEFFFF]'> Step Into the Future of
 Fitness.  </span><span> Order Yours Now and
 Experience the Power </span>
-<span className='text-[#EEFFFF] mr-1'> of Purpose
+<span className='text-[#EEFFFF] '> of Purpose
 Built Footwear. </span>
 </div>
 
@@ -97,7 +97,7 @@ Built Footwear.</span>
 <div className="content  w-fit">
     <span>Unleash Your Ultimate Stride with </span> <span className='text-[#EEFFFF]'>Our
 Cutting-Edge Shoes! </span><span>Elevate Your Performance,</span>
-<span className='text-[#EEFFFF] mr-1'>Embrace Comfort and Conquer Every Run.</span>
+<span className='text-[#EEFFFF] '>Embrace Comfort and Conquer Every Run.</span>
 </div>
 
 <div className="content w-fit">
