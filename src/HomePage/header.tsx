@@ -74,7 +74,7 @@ Built Footwear
 <div className="banner1  bg-[#EEFFFF]  w-full h-[50%] mb-[30vw] portrait:sm:mb-[20vw]  portrait:text-[6vw] portrait:sm:text-[4vw] flex flex-row whitespace-nowrap items-center ">
 
 
-<div className="content  w-full "><span>Our Shoes Redefine Jogging
+<div className="content  w-full  ml-1"><span>Our Shoes Redefine Jogging
 Excellence. </span> <span className='text-[#EEFFFF]'> Step Into the Future of
 Fitness.  </span><span> Order Yours Now and
 Experience the Power </span>
@@ -82,7 +82,7 @@ Experience the Power </span>
 Built Footwear. </span>
 </div>
 
-<div className="content  w-full"><span>Our Shoes Redefine Jogging
+<div className="content  w-full "><span>Our Shoes Redefine Jogging
 Excellence. </span> <span className='text-[#EEFFFF]'> Step Into the Future of
 Fitness.  </span><span> Order Yours Now and
 Experience the Power </span>
@@ -94,16 +94,16 @@ Built Footwear.</span>
 
 <div className="banner2 bg-[#EEFFFF]  w-full h-[50%] mb-[30vw] portrait:sm:mb-[20vw]  portrait:text-[6vw] portrait:sm:text-[4vw] flex flex-row whitespace-nowrap items-center "> 
 
-<div className="content  w-full">
+<div className="content  w-full ml-1">
     <span>Unleash Your Ultimate Stride with </span> <span className='text-[#EEFFFF]'>Our
 Cutting-Edge Shoes! </span><span>Elevate Your Performance,</span>
 <span className='text-[#EEFFFF] '>Embrace Comfort and Conquer Every Run.</span>
 </div>
 
-<div className="content w-full">
-  <span>Unleash Your Ultimate Stride with </span> <span className='text-[#EEFFFF]'>Our
+<div className="content  w-full">
+    <span>Unleash Your Ultimate Stride with </span> <span className='text-[#EEFFFF]'>Our
 Cutting-Edge Shoes! </span><span>Elevate Your Performance,</span>
-<span className='text-[#EEFFFF]'>Embrace Comfort and Conquer Every Run.</span>
+<span className='text-[#EEFFFF] '>Embrace Comfort and Conquer Every Run.</span>
 </div>
 
 </div>
