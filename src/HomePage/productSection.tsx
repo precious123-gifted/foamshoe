@@ -5,25 +5,43 @@ import { Suspense } from "react";
 import {Model} from '../app/Shoe'
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap'
-// import { Tween } from 'three/examples/jsm/libs/tween.module.js';
-// gsap.registerPlugin(ScrollTrigger)
+import ScrollTrigger from 'gsap/dist/ScrollTrigger';
+ gsap.registerPlugin(ScrollTrigger)
 
 
 export default function ProductSection() {
 
   const productSectionDiv  = useRef<HTMLDivElement>(null)
 
-// useGSAP(()=>{
-//   gsap.to(productSectionDiv.current,{x:'',
-// ScrollTrigger({
-//    trigger: productSectionDiv.current,
-//     start: "top center",
-//     toggleActions: "restart none none none",
+ useGSAP(()=>{
+  gsap.from(productSectionDiv.current, {
+    opacity: 0,
+    y: 100,
+    duration: 1,
+    scrollTrigger: {
+      trigger: productSectionDiv.current,
+      start: 'top 80%',
+      end: 'bottom 20%',
+      scrub: true,
+      pin:true,
+    },
+  });
+}, []);
 
-// })
-//
-// }),})
 
+
+//  ScrollTrigger.create({
+//   trigger: productSectionDiv.current,
+//   start: "top center",
+//   toggleActions: "restart none none none",
+// });
+
+
+
+
+
+
+ 
 
   return (
     <div ref={productSectionDiv} className='bg-[#996B4D] w-screen landscape:h-[48vw] portrait:h-[130vw] portrait:sm:h-[125vw] flex flex-row justify-center portrait:pb-[10vw]'>
