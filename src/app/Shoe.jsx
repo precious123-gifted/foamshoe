@@ -6,12 +6,27 @@ Command: npx gltfjsx@6.2.16 shoe.gltf
 import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 import dynamic from 'next/dynamic';
+import { useFrame } from '@react-three/fiber';
 
 
 export function Model(props) {
   const { nodes, materials } = useGLTF('/shoe.gltf')
+
+
+const mesh = useRef()
+useFrame(()=>{
+
+  if (mesh.current) {
+    
+    mesh.current.rotation.y += 0.005; // Rotate the model around the y-axis
+  }
+  
+})
+
+
+
   return (
-    <group scale={[22,22,22]} {...props} dispose={null} >
+    <group ref={mesh} scale={[22,22,22]} {...props} dispose={null} >
       
       <mesh geometry={nodes.shoe.geometry}  material-color={'#A5DADD'} material={materials.laces}/>
        
