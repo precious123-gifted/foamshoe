@@ -15,15 +15,13 @@ export default function ProductSection() {
 
  useGSAP(()=>{
   gsap.from(productSectionDiv.current, {
-    opacity: 0,
-    y: 100,
-    duration: 1,
     scrollTrigger: {
       trigger: productSectionDiv.current,
-      start: 'top 80%',
-      end: 'bottom 20%',
+      start: 'top top',
       scrub: true,
       pin:true,
+      pinSpacing:false,
+      snap:1,
     },
   });
 }, []);
@@ -44,7 +42,7 @@ export default function ProductSection() {
  
 
   return (
-    <div ref={productSectionDiv} className='bg-[#996B4D] w-screen landscape:h-[48vw] portrait:h-[130vw] portrait:sm:h-[125vw] flex flex-row justify-center portrait:pb-[10vw]'>
+    <div ref={productSectionDiv} className='bg-[#996B4D]  w-screen landscape:h-[48vw] portrait:h-[130vw] portrait:sm:h-[125vw] flex flex-row justify-center portrait:pb-[10vw]'>
     <div className="content w-[95%] h-full flex landscape:flex-row portrait:flex-col-reverse ">
 
 <div className="section1 landscape:w-[50%] portrait:w-full h-full portrait:h-[70%] flex flex-col items-center">
@@ -59,7 +57,7 @@ camera={{position:[9,7,30]}} className=' w-full overflow-visible'>
 <directionalLight position={[-2,5,2]} intensity={1.3} />
 <pointLight position={[-5, 20, 10]} />
 <Model/>
-<Environment preset='city'/> 
+{/* <Environment preset='city'/>  */}
 </Suspense>
 
       </Canvas>
