@@ -11,9 +11,25 @@ import ScrollTrigger from 'gsap/dist/ScrollTrigger';
 
 export default function ProductSection() {
 
+
+  function isPortrait() {
+    const portraitQuery = window.matchMedia('(orientation: portrait)');
+    return portraitQuery.matches;
+  }
+  function isLandscape() {
+    const portraitQuery = window.matchMedia('(orientation: landscape)');
+    return portraitQuery.matches;
+  }
+  
+
   const productSectionDiv  = useRef<HTMLDivElement>(null)
 
+
+ 
+  
  useGSAP(()=>{
+ if(isLandscape()){
+
   gsap.from(productSectionDiv.current, {
     scrollTrigger: {
       trigger: productSectionDiv.current,
@@ -23,16 +39,30 @@ export default function ProductSection() {
       pinSpacing:false,
       snap:1,
     },
+  });  
+
+  }
+
+
+
+if(isPortrait()){
+
+ gsap.from(productSectionDiv.current, {
+    scrollTrigger: {
+      trigger: productSectionDiv.current,
+      start: 'top 10%',
+      scrub: true,
+      pin:true,
+      pinSpacing:false,
+      snap:1,
+    },
   });
+
+}
+
 }, []);
 
 
-
-//  ScrollTrigger.create({
-//   trigger: productSectionDiv.current,
-//   start: "top center",
-//   toggleActions: "restart none none none",
-// });
 
 
 
